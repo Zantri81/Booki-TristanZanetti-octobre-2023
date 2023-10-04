@@ -1,21 +1,25 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
+    --border-color: #d9d9d9;
+}
+body {
+    display: flex;
+    justify-content: center;
 }
 
 .fa-solid {
     color: var(--main-color);
-}
-
-body {
-    display: flex;
-    justify-content: center;
 }
 
 .main-container {
@@ -51,6 +55,22 @@ body {
 
 .neutralStar {
     color: var(--main-bg-color)
+}
+
+/****** Header ***********/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.onglets {
+    display: flex;
+}
+
+.onglets li {
+    display: inline-block;
 }
 
 /****** Hebergements And Populaires ***********/
