@@ -63,14 +63,37 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 79px;
+}
+
+.logo {
+    height: 19px;
+    padding: 32px 50px
 }
 
 .onglets {
     display: flex;
+    height: 79px;
+    gap: 68px;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
 .onglets li {
     display: inline-block;
+    height : 100%;
+    padding-top: 12px;
+    border-top : transparent 2px solid;
+
+}
+
+.onglets li a {
+    color: black;
+}
+
+.onglets li:hover {
+    border-top: var(--main-color) 2px solid;
+    color: var(--main-color);
 }
 
 /****** Hebergements And Populaires ***********/
