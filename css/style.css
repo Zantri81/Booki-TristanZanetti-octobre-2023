@@ -96,6 +96,27 @@ body {
     color: var(--main-color);
 }
 
+
+/****** Filters and Researchs ***********/
+
+#info-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#research-section {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
