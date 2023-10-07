@@ -102,6 +102,8 @@ body {
 #info-content {
     display: flex;
     flex-direction: column;
+    margin-top: 30px;
+    gap: 35px;
 }
 
 .info-intro {
@@ -114,7 +116,28 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: flex-start;
+    border: none;
+}
 
+#filters {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.btn-filter {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 700;
+    border: 2px solid var(--border-color);
+    padding: 0 19px;
+    border-radius: 25px;
+    height: 50px;
+    width: auto;
+    cursor: pointer;
 }
 
 /****** Hebergements And Populaires ***********/
