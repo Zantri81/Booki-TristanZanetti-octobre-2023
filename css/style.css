@@ -100,6 +100,7 @@ body {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    flex-wrap: nowrap;
 }
 
 .hebergements-and-populaires section {
@@ -112,7 +113,24 @@ body {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+    display: flex;
+    flex-direction: column;
 }
+
+.hebergements-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.hebergements-card img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 124px;
+    width: 100%;
+}
+
 
 /****** Populaires ***********/
 .populaires {
