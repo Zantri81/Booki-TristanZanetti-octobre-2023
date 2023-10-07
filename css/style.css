@@ -115,6 +115,7 @@ body {
     width: 65%;
     display: flex;
     flex-direction: column;
+
 }
 
 .hebergements-card {
@@ -124,12 +125,20 @@ body {
     box-sizing: border-box;
 }
 
+.hebergements-card .card {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+    flex-grow: 1;
+}
+
 .hebergements-card img {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     height: 124px;
     width: 100%;
 }
+
 
 
 /****** Populaires ***********/
