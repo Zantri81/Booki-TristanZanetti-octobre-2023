@@ -157,6 +157,12 @@ body {
     margin-top: 33px;
 }
 
+.populaires-cards .card a {
+    display: flex;
+    color: inherit;
+    width: 100%;
+}
+
 .populaires-cards img {
     width: 33%;
     height: 136px;
