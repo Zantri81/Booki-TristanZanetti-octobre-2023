@@ -161,8 +161,24 @@ body {
 
 /****** Footer ************/
 
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--main-bg-color);
+    margin: 35px 50px 0;
+}
 
+.footer-div {
+    display: flex;
+    flex-direction: column;
+}
 
+.footer-div ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
