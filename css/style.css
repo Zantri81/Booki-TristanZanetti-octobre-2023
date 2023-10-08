@@ -124,7 +124,10 @@ body {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    width: 55px;
+    height: 50px;
     background-color: var(--main-bg-color);
+    border-radius: 15px 0 0 15px;
 }
 
 .fa-location-dot {
@@ -192,7 +195,22 @@ body {
     font-size: 22px;
 }
 
+#info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 
+#info-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: var(--border-color) 1px solid;
+    border-radius: 100%;
+    width: 23px;
+    height: 23px;
+    flex-shrink: 0;
+}
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
