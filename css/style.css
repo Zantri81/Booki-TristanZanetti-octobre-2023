@@ -662,6 +662,33 @@ body {
 
     }
 
+    .hebergements-card {
+        flex-direction: column;
+        gap: 15px;
 
-    
+    }
+
+    .card-activites {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .card-activites .card {
+        width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+        padding: 30px;
+        gap: 50px;
+        margin: 0;
+
+    }
+
+    .footer-div {
+        margin: 0;
+        width: 100%;
+    }
+
+
 }
