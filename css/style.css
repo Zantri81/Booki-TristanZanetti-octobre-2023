@@ -515,7 +515,7 @@ body {
         width: 100%;
     }
 
-    #tabs {
+    .onglets {
         justify-content: center;
         height: 36px;
         width: 100%;
@@ -525,7 +525,7 @@ body {
 
     }
 
-    #onglets li {
+    .onglets li {
         display: flex;
         justify-content: center;
         width: 50%;
@@ -536,12 +536,95 @@ body {
         border-top: none;
     }
 
-    #onglets li:hover {
+    .onglets li:hover {
         border-top: none;
         border-bottom: var(--main-color) 2px solid;
         color: var(--main-color);
     }
 
+    #info-content {
+        align-items: center;
+        margin: 30px 20px 0;
+    }
 
+    #info-content h1 {
+        margin-bottom: 8px;
+    }
+
+    #research-section {
+        box-sizing: border-box;
+    }
+
+    #research {
+        max-width: 260px;
+        width: 70%;
+    }
+
+    #research-btn {
+        width: 50px;
+        height: 50px;
+        border-radius: 15px;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        margin-left: -5px;
+    }
+
+    #research-btn span {
+        display: none;
+    }
+
+    #research-btn i {
+        display: block;
+        width: 17px;
+    }
+
+    .fa-magnifying-glass {
+        color: white;
+        width: 17px;
+        padding: 15px 16px;
+
+    }
+
+    #filters {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    #btn-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .btn-filter {
+        justify-content: flex-start;
+        margin-bottom: 20px;
+        flex-basis: 48%;
+        font-size: 14px;
+    }
+
+    .filter-icon {
+        font-size: 22px;
+    }
+
+    #info {
+        width: 100%;
+        margin-top: -20px;
+    }
+
+    #info-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: var(--border-color) 1px solid;
+        border-radius: 100%;
+        width: 23px;
+        height: 23px;
+        flex-shrink: 0;
+    }
 
 }
