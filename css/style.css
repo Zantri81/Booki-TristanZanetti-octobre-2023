@@ -110,6 +110,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 8px;
 }
 
 #research-section {
@@ -117,6 +118,38 @@ body {
     align-items: center;
     justify-content: flex-start;
     border: none;
+}
+
+.location-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-bg-color);
+}
+
+.fa-location-dot {
+    color: black;
+}
+
+#research {
+        font-size: 18px;
+        font-weight: 700;
+        color: black;
+        border-top: 1px solid var(--main-bg-color);
+        border-bottom: 1px solid var(--main-bg-color);
+        border-left: none;
+        border-right: none;
+        padding: 14px 0 14px 24px;
+        width: 171px;
+}
+
+#research-btn {
+    display: flex;
+    background-color: var(--main-color);
+    padding: 15px 16px;
+    border-radius: 0 15px 15px 0;
+    border: none;
+    cursor: pointer;
 }
 
 #filters {
