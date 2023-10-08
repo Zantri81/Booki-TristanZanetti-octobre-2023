@@ -22,11 +22,33 @@ body {
     color: var(--main-color);
 }
 
+.neutral-star {
+    color: var(--main-bg-color);
+}
+
+.info-text {
+    font-size: 16px;
+}
+
+.main-title {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.sub-title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
 .main-container {
     width: 100%;
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
+}
+
+.main-content {
+    padding: 0 50px;
 }
 
 .section-title {
@@ -47,6 +69,20 @@ body {
 
 .card-title {
     font-size: 16px;
+}
+
+.card-subtitle {
+    font-size: 14px;
+}
+
+.card-rating {
+    display: flex;
+    width: 81px;
+}
+
+.fa-star {
+    line-height: 1;
+    width: 100%;
 }
 
 .euro {
