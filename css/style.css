@@ -152,6 +152,16 @@ body {
     cursor: pointer;
 }
 
+#research-btn span {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+
+#research-btn i {
+    display: none;
+}
+
 #filters {
     display: flex;
     justify-content: flex-start;
@@ -172,6 +182,17 @@ body {
     width: auto;
     cursor: pointer;
 }
+
+.btn-filter:hover {
+    background-color: var(--filter-bg-color);
+}
+
+.filter-icon {
+    margin-right: 10px;
+    font-size: 22px;
+}
+
+
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
