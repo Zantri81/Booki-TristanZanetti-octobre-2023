@@ -270,7 +270,7 @@ body {
 }
 
 /****** Hebergements ***********/
-.hebergements {
+#hebergements {
     width: 65%;
     display: flex;
     flex-direction: column;
@@ -374,7 +374,7 @@ body {
 
 /****** Activités **********/
 
-.activites {
+#activites {
     display: flex;
     flex-direction: column;
     padding: 30px;
